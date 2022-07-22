@@ -19,5 +19,8 @@ function myPower(num, callbackfn) {
 
 myPower(3, displayAsParagraph);
 myPower(32, displayAsH2);
+myPower(5, (sk) => {
+  console.log(sk);
+});
 
 // displayAsParagraph(result);
